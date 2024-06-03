@@ -1,0 +1,63 @@
+@font-face{
+    font-family: "Timer";
+    src: url("./resources/CursedTimer.ttf")
+}
+
+body {
+    margin: 0;
+    background-color: #0B1D51;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+section{
+    height: 5rem;
+    width:  7rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+h2{
+    color: red;
+    font-family: "Timer";
+    font-size: 2rem;
+}
+
+button{
+    background-color: #0B1D51;
+    border-radius: 5px;
+    font-size: smaller;
+    border: 1px solid silver;
+    color: silver;
+    font-family: "Timer";
+    padding: 0.3rem;
+}
+
+button:focus{
+    outline: none;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;   
+}
+
+#reset-container{
+    margin-top: 1rem;
+    color: black;
+    display: flex;
+    width: w-screen;
+    justify-content: center;
+}
